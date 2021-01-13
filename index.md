@@ -9,9 +9,7 @@ hero_height: is-medium
 hero_darken: true
 image: /img/main_page1.png
 ---
-<!-- 
-![Me](/img/exp_less.png)
-Format: ! -->
+
 
 <p align="center">
   <img src="/img/profile.jpg" height="20%" width="20%" style="border-radius:50%" title="Me">
