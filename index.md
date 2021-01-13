@@ -12,7 +12,7 @@ image: /img/main_page1.png
 
 
 <p align="center">
-  <img src="/img/profile.jpg" height="20%" width="20%" style="border-radius:50%" title="Me">
+  <img src="/img/profile1.png" height="100" width="200" style="width:200px;height:200px;border-radius:10%" title="Me">
 </p>
 
 # About Me
