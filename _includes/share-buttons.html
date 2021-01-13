@@ -16,4 +16,13 @@
        onclick="window.open('https://reddit.com/submit?url={{ site.url }}{{ page.url | prepend: site.baseurl }}');">
         <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
     </a>
+    <!-- <a href="whatsapp://send?text=urlencodedtext"><i class="fa fa-whatsapp"></i></a> -->
+    <!-- <a class="button is-medium is-whatsapp"
+       onclick="window.open('https://whatsapp://send?text={{ site.url }}{{ page.url | prepend: site.baseurl }}');">
+        <span class="icon"><i class="fab fa-whatsapp fa-lg"></i></span>
+    </a> -->
+    <a class="button is-medium is-whatsapp"
+       href="whatsapp://send?text= {{ site.url }}{{ page.url | prepend: site.baseurl }}" data-action="share/whatsapp/share">
+        <span class="icon"><i class="fab fa-whatsapp fa-lg"></i></span>
+    </a>
 </div>
